@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade Object-fit</title>
+    <style>
+        div > img{
+            width: 200px;
+            height: 300px;
+            border: 1px solid black;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        #fill {
+            object-fit: fill;
+        }
+        #contain {
+            object-fit: contain;
+        }
+
+        #cover {
+            object-fit: cover;
+        }
+        #none {
+            object-fit: none;
+        }
+
+        #scale-down {
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    Object-fit (fill)
+    <div>
+        <img src="arquivos/imagens/lpm_logo.jpeg" alt="" id="fill"> <br>
+        <img src="arquivos/imagens/lpm_logo.jpeg" alt="" id="contain"> <br>
+        <img src="arquivos/imagens/lpm_logo.jpeg" alt="" id="cover"> <br>
+        <img src="arquivos/imagens/lpm_logo.jpeg" alt="" id="none"> <br>
+        <img src="arquivos/imagens/lpm_logo.jpeg" alt="" id="scale-down">
+    </div>
+</body>
+</html>

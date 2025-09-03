@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+        .seletor {
+            color:darkslategrey;
+        }
+        .texto-maiusculo {
+            text-transform: uppercase;
+        }
+
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        p.texto, div {
+            color: blueviolet;
+        }
+        .texto.teste {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabeçalho">
+        <nav id="links">
+            <h1>Seletores</h1>
+            <ul>
+                <li><a class="seletor texto-maiusculo" href="#">Seletores com ID</a></li>
+                <li><a class="seletor texto-maiusculo" href="#">Seletores com Classes</a></li>
+                <li><a class="seletor" href="#">Seletores Universais</a></li>
+                <li><a class="seletor" href="#">Seletores Individuais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p class="texto">
+            Eai
+        </p>
+        <div class="texto">
+            É Nós.
+        </div>
+
+        <p class="texto teste">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsum illo delectus odit eaque cupiditate voluptatum beatae, excepturi in ducimus eos facere assumenda veritatis tempora illum natus et fuga laboriosam.
+        </p>
+
+        <div class="texto">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet at ipsa atque omnis, suscipit et delectus sit, quos ex incidunt officiis in illo, corrupti voluptates ab molestiae provident placeat commodi!</p>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
