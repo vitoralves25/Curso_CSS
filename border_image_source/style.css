@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 50px solid;
+    background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+#exemplo-1 {
+    border-image-source: url(arquivos/imagens/lpm_logo.jpeg);
+}
+
+#exemplo-2 {
+    border-image-source: url(arquivos/imagens/lpm_logo.jpeg)
+}
+
+.cabeçalho {
+    font-size: 2em;
+    color: white;
+    padding: 55px 0px 0px 0px;
+    font-weight: bold;
+    background-color:silver;
+    background-image:
+    radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+}
