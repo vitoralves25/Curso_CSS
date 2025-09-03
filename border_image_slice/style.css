@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.exemplo {
+    width: auto;
+    height: 30px;
+    background-color: white;
+}
+
+#exemplo-1 {
+    border: 2px solid;
+    border-image-source: linear-gradient(#3c91ff, #00f5e9);
+    border-image-slice: 30;
+    
+}
+
